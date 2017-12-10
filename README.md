@@ -71,7 +71,10 @@ $ oc new-app jenkins-persistent --param=MEMORY_LIMIT=1Gi -e INSTALL_PLUGINS=anal
 $ git clone https://github.com/OpenShiftDemos/openshift-cd-demo
 ```
 
-> Switch to project directory...
+Switch to branch ``ocp-3.6``:
+```sh
+$ git checkout ocp-3.6
+```
 
 ## Step 3: Deploy auxiliary tools (Gogs, Nexus, Sonarqube) and the pipeline
 
